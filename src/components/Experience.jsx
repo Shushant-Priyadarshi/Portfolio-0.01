@@ -10,9 +10,25 @@ function Experience() {
         Experience
       </div>
 
+
       <div className="max-w-[1240px] mx-auto grid md:gap-20 md:grid-cols-2 md:my-10 font-poppins ">
+      <div className="md:col-span-1">
+          <div className="py-[20px]">
+            <h1 className="text-center font-semibold text-lg md:text-xl ">
+              National Service Scheme, MSI
+            </h1>
+            <div className="text-sm md:text-lg p-4 text-start">
+              <h1>
+                Developed frontend solutions using React.js, Tailwind CSS, and
+                JavaScript for the National Service Scheme, enhancing user
+                interfaces and optimizing user experience.<br></br>
+                <i className="text-sm">April 2024 - present</i>
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="md:col-span-1">
-          <div className="py-[20px] ">
+          <div className=" ">
             <h1 className="text-center font-semibold text-lg md:text-xl ">
               HacktoberFest
             </h1>
@@ -28,21 +44,7 @@ function Experience() {
           </div>
         </div>
 
-        <div className="md:col-span-1">
-          <div className="py-[20px]">
-            <h1 className="text-center font-semibold text-lg md:text-xl ">
-              National Service Scheme, MSI
-            </h1>
-            <div className="text-sm md:text-lg p-4 text-start">
-              <h1>
-                Developed frontend solutions using React.js, Tailwind CSS, and
-                JavaScript for the National Service Scheme, enhancing user
-                interfaces and optimizing user experience.<br></br>
-                <i className="text-sm">April 2024 - present</i>
-              </h1>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

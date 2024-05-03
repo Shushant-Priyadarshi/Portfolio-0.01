@@ -7,13 +7,32 @@ const Projects = () => {
         PROJECTS
       </h1>
       <div className="max-w-[1240px] mx-auto py-10 gap-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-10">
+        <div className="grid gap-2 grid-cols-1 md:grid-cols-4 md:gap-10">
+        <a
+            href="https://github.com/Shushant-Priyadarshi/Bookstore-MERN"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="shadow-xl h-[220px]  hover:scale-110 duration-500 md:mb-10  rounded-lg">
+              <div className="text-center flex flex-col gap-5 m-2  justify-between  ">
+                <h1 className="font-semibold p-3 ">ShelfAri </h1>
+                <p>
+                  Shelfari is a full-stack app for managing bookstore.
+                </p>
+                <h1 className="mb-1">MERN</h1>
+              </div>
+              <div className="text-center">
+                <FaGithub className="text-2xl text-end inline" />
+              </div>
+            </div>
+          </a>
+
           <a
             href="https://github.com/Shushant-Priyadarshi/Blinkit-Clone"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="shadow-xl h-[220px] bg-[#EDE8F5] hover:scale-110 duration-500 mb-10 md:mb-0 rounded-lg">
+            <div className="shadow-xl h-[220px] bg-gradient-to-b from-[#D9DFFE] to-[#EDE8F5] hover:scale-110 duration-500 mb-10 md:mb-0 rounded-lg">
               <div className="text-center flex flex-col gap-5 m-2 justify-between ">
                 <h1 className="p-4 font-semibold">Blinkit Clone</h1>
                 <p>
@@ -26,6 +45,7 @@ const Projects = () => {
               </div>
             </div>
           </a>
+
 
           <a
             href="https://github.com/Shushant-Priyadarshi/Code-Editor"
@@ -50,8 +70,8 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="shadow-xl h-[220px] bg-[#EDE8F5] hover:scale-110 duration-500 mb-10 rounded-lg md:mb-0">
-              <div className="text-center flex flex-col gap-5 m-2  justify-between">
+            <div className="shadow-xl h-[220px] bg-gradient-to-b from-[#D9DFFE] to-[#EDE8F5] hover:scale-110 duration-500 mb-10 rounded-lg md:mb-0">
+              <div className="text-center flex flex-col gap-5   justify-between">
                 <h1 className="p-4 font-semibold">Chat App</h1>
                 <p className="mb-5">Real time chat application</p>
                 <h1 className="mb-1">ReactJS, Chakra UI, and Firebase.</h1>
@@ -62,22 +82,7 @@ const Projects = () => {
             </div>
           </a>
 
-          <a
-            href="https://github.com/Shushant-Priyadarshi/PHP-Blog"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="shadow-xl h-[220px]  hover:scale-110 duration-500 md:mb-10  rounded-lg">
-              <div className="text-center flex flex-col gap-5 m-2  justify-between  ">
-                <h1 className="font-semibold p-3">Php Blog</h1>
-                <p>Admin panel for managing blog posts on the Blog Website.</p>
-                <h1 className="mb-1">PHP, Bootstrap and MySql </h1>
-              </div>
-              <div className="text-center">
-                <FaGithub className="text-2xl text-end inline" />
-              </div>
-            </div>
-          </a>
+       
         </div>
       </div>
     </div>

@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "skill": "HTML"
+    },
+    {
+        "id": 2,
+        "skill": "CSS"
+    },
+    {
+        "id": 3,
+        "skill": "JavaScript"
+    },
+    {
+        "id": 4,
+        "skill": "Bootstrap"
+    },
+    {
+        "id": 5,
+        "skill": "TailWind CSS"
+    },
+    {
+        "id": 6,
+        "skill": "ReactJs"
+    },
+    {
+        "id": 7,
+        "skill": "React Router"
+    },
+    {
+        "id": 8,
+        "skill": "Git"
+    },
+   
+    {
+        "id": 9,
+        "skill": "NodeJs"
+    },
+    {
+        "id": 10,
+        "skill": "ExpressJs"
+    },
+    {
+        "id": 11,
+        "skill": "MongoDB"
+    },
+    {
+        "id": 12,
+        "skill": "MySql"
+    },
+    {
+        "id": 13,
+        "skill": "Java"
+    },
+    {
+        "id": 14,
+        "skill": "C"
+    },
+    {
+        "id": 15,
+        "skill": "Python"
+    },
+    {
+        "id": 16,
+        "skill": "Canva"
+    },
+    {
+        "id": 17,
+        "skill": "Figma"
+    }
+]
