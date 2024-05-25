@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 800,delay:100 });
+    AOS.init({ duration: 800,delay:200 });
   }, []);
 
   return (
