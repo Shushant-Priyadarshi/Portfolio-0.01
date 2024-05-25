@@ -1,5 +1,5 @@
 import gifCode from "../../images/gifCode.gif";
-
+import {motion} from "framer-motion"
 const AboutMe = () => {
   return (
     <>
@@ -7,15 +7,39 @@ const AboutMe = () => {
         className="max-w-[1240px] mx-auto  md:grid grid-cols-2  md:my-10 font-poppins py-[50px] "
         id="about"
       >
-        <div className=" col-span-1 md:w-[70%] inline">
-          <img
+        <motion.div className=" col-span-1 md:w-[70%] inline"
+        initial={{x:-800}}
+        animate={{x:0}}
+        transition={{delay:0.7, type:"spring", stiffness:200}}
+       
+       >
+          <motion.img
+           drag
+      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+      dragElastic={0.3}
+      whileHover={{scale:1.1}}
+      transition={{duration:0.5}}
             src={gifCode}
             alt="coder"
-            className="hover:scale-110 duration-500"
-          ></img>
-        </div>
-        <div className=" col-span-1 md:py-[80px] text-sm md:text-lg p-4">
-          I am a 17-year-old{" "}
+            className=""
+          ></motion.img>
+        </motion.div>
+        <motion.div className=" col-span-1 md:py-[80px] text-sm md:text-lg p-4"
+        initial={{x:800}}
+        animate={{x:0}}
+        transition={{delay:0.7, type:"spring", stiffness:200}}
+        drag
+      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+       dragElastic={0.3}
+       >
+         <motion.div 
+           drag
+      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+      dragElastic={0.5}
+      whileHover={{scale:1.1}}
+      transition={{duration:0.3}}
+         >
+         I am a 17-year-old{" "}
           <span className="text-[#3D52A0] font-bold">Frontend developer</span>{" "}
           based in India, currently pursuing my first year of Bachelor of
           Computer Applications at{" "}
@@ -25,7 +49,8 @@ const AboutMe = () => {
           . With a strong passion for technology and problem-solving, I enjoy
           creating innovative solutions and exploring the endless possibilities
           of software development.
-        </div>
+         </motion.div> 
+        </motion.div>
       </div>
     </>
   );

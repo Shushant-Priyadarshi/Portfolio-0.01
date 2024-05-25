@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "name": "ShelfAri",
+        "description":" Shelfari is a full-stack app for managing bookstore.",
+        "tech":"MERN",
+        "alternate":true,
+        "github":"https://github.com/Shushant-Priyadarshi/Bookstore-MERN"
+    },
+    {
+        "id":2,
+        "name": "Blinkit Clone",
+        "description":"  A taskbar that provides content suggestions for users to write",
+        "tech":"Html Css Javascript",
+        "alternate":false,              
+        "github":"https://github.com/Shushant-Priyadarshi/Blinkit-Clone"
+    },
+    {
+        "id":3,
+        "name": "Code Editor",
+        "description":" This project is a simple yet powerful code editor.",
+        "tech":"Html Css Javascript",
+        "alternate":true,
+        "github":"https://github.com/Shushant-Priyadarshi/Code-Editor"
+    },
+    {
+        "id":4,
+        "name": "Chat App",
+        "description":"Real time chat application made with",
+        "tech":"ReactJS, Chakra UI, and Firebase.",
+        "alternate":false,
+        "github":"https://github.com/Shushant-Priyadarshi/ChatApp-Firebase"
+    }
+    
+]

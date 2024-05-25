@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const scrollToSection = (id) => {
@@ -9,38 +9,47 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-center relative z-10">
-      <div className="bg-[#7091E6] p-4 mt-3 items-center font-poppins fixed top-0 rounded-lg ">
-        <div>
-          <ul className="flex gap-10 items-center cursor-pointer text-white text-[0.6rem] md:text-base">
-            <li
+    <motion.div
+      className="flex justify-center relative z-10"
+      drag
+      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+    >
+      <motion.div
+        className="bg-[#7091E6] p-4 mt-3 items-center font-poppins fixed top-0 rounded-lg "
+        animate={{ y: 1 }}
+        initial={{ y: -250 }}
+        transition={{ delay: 0.3, type: "spring", stiffness: 400 }}
+      >
+        <motion.div>
+          <ul className="flex gap-10 items-center cursor-pointer text-white text-[0.8rem] md:text-xl">
+            <motion.h1
               onClick={() => scrollToSection("home")}
-              className="hover:text-black cursor-pointer"
+              className=" cursor-pointer hover:scale-125 duration-300 ease-in"
             >
               Home
-            </li>
-            <li
+            </motion.h1>
+            <motion.h1
               onClick={() => scrollToSection("about")}
-              className="hover:text-black cursor-pointer"
+              className=" cursor-pointer hover:scale-125 duration-300 ease-in "
             >
               About Me
-            </li>
-            <li
+            </motion.h1>
+            <motion.h1
               onClick={() => scrollToSection("projects")}
-              className="hover:text-black cursor-pointer"
+              className=" cursor-pointer  hover:scale-125 duration-300 ease-in"
             >
               Projects
-            </li>
-            <li
+            </motion.h1>
+            <motion.h1
               onClick={() => scrollToSection("exp")}
-              className="hover:text-black cursor-pointer"
+              className=" cursor-pointer  hover:scale-125 duration-300 ease-in"
             >
               Experience
-            </li>
+            </motion.h1>
           </ul>
-        </div>
-      </div>
-    </div>
+        </motion.div>
+      </motion.div>
+    </motion.div>
   );
 };
 

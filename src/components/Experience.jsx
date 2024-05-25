@@ -1,19 +1,24 @@
-import React from "react";
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 function Experience() {
+  useEffect(()=>{
+    AOS.init({duration:1200});
+  })
   return (
     <div
       className="bg-gradient-to-b from-[#D9DFFE] to-[#EDE8F5] w-full font-poppins md:py-[40px]"
       id="exp"
     >
-      <div className="text-center font-bold text-3xl text-[#3D52A0] mt-2 pt-3 font-poppins">
+      <div className="text-center font-bold text-3xl text-[#3D52A0] mt-2 pt-3 font-poppins" data-aos="flip-down">
         Experience
       </div>
 
 
-      <div className="max-w-[1240px] mx-auto grid md:gap-20 md:grid-cols-2 md:my-10 font-poppins ">
+      <div className="max-w-[1240px] mx-auto grid md:gap-20 md:grid-cols-2 md:my-10 font-poppins" >
       <div className="md:col-span-1">
-          <div className="py-[20px]">
+          <div className="py-[20px]" data-aos="flip-down">
             <h1 className="text-center font-semibold text-lg md:text-xl ">
               National Service Scheme, MSI
             </h1>
@@ -28,7 +33,7 @@ function Experience() {
           </div>
         </div>
         <div className="md:col-span-1">
-          <div className=" ">
+          <div className=" " data-aos="flip-down">
             <h1 className="text-center font-semibold text-lg md:text-xl ">
               HacktoberFest
             </h1>

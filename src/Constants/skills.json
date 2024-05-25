@@ -25,12 +25,13 @@
     },
     {
         "id": 7,
-        "skill": "React Router"
+        "skill": "Framer Motion"
     },
     {
         "id": 8,
-        "skill": "Git"
+        "skill": "ThreeJs"
     },
+  
    
     {
         "id": 9,
@@ -52,14 +53,7 @@
         "id": 13,
         "skill": "Java"
     },
-    {
-        "id": 14,
-        "skill": "C"
-    },
-    {
-        "id": 15,
-        "skill": "Python"
-    },
+
     {
         "id": 16,
         "skill": "Canva"
