@@ -23,7 +23,7 @@ const Form = () => {
         }
         try {
            await axios.post("https://getform.io/f/qalovovb",userInfo);
-           toast.success("Message sent successfull!")
+           toast.success("Message sent successfully!")
 
         } catch (error) {
             console.log("erroe",error);
