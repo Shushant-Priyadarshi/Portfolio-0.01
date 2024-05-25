@@ -7,7 +7,7 @@ const AboutMe = () => {
         className="max-w-[1240px] mx-auto  md:grid grid-cols-2  md:my-10 font-poppins py-[50px] "
         id="about"
       >
-        <motion.div className=" col-span-1 md:w-[70%] inline"
+        <motion.div className=" col-span-1 md:w-[70%] inline p-8 md:p-0"
         initial={{x:-800}}
         animate={{x:0}}
         transition={{delay:0.7, type:"spring", stiffness:200}}
@@ -27,7 +27,7 @@ const AboutMe = () => {
             className=""
           ></motion.img>
         </motion.div>
-        <motion.div className=" col-span-1 md:py-[80px] text-sm md:text-lg p-4"
+        <motion.div className=" col-span-1 md:py-[80px] text-sm md:text-lg p-8 md:-4"
         initial={{x:800}}
         animate={{x:0}}
         transition={{delay:0.7, type:"spring", stiffness:200}}

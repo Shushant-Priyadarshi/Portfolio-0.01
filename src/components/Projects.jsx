@@ -18,13 +18,11 @@ const Projects = () => {
       >
         PROJECTS
       </h1>
-      <div className="max-w-[1240px] mx-auto py-10 gap-10">
+      <div className="max-w-[1240px] mx-auto py-10 gap-10 p-6 md:p-0   ">
         <div className="grid gap-2 grid-cols-1 md:grid-cols-4 md:gap-10">
           {projectData.map((data) => (
             <motion.a
-              drag
-              dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-              dragElastic={0.5}
+              
               transition={{ duration: 0.3 }}
               key={data.id}
               data-aos="flip-up"
@@ -33,7 +31,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <div
-                className={`shadow-2xl h-[220px]  hover:scale-110 duration-500 md:mb-10  rounded-lg ${
+                className={`shadow-2xl h-[220px]  hover:scale-110 duration-500 md:mb-10  rounded-lg mt-8 md:mt-5 ${
                   data.alternate
                     ? "bg-gradient-to-b from-[#D9DFFE] to-[#EDE8F5] w-full  "
                     : ""
