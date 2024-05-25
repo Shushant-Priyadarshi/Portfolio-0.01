@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { useForm } from "react-hook-form"
 import axios from "axios";
 import toast from "react-hot-toast";
+import imgForm from "../../images/contact_us.gif"
 
 
 const Form = () => {
@@ -45,7 +46,7 @@ const Form = () => {
       <div className="max-w-[1240px] mx-auto md:grid grid-cols-2 gap-10 md:my-10 p-4 md:p-0">
         <div className="col-span-1 flex justify-center rounded-lg"  data-aos="fade-right">
           <img
-            src="../images/contact_us.gif"
+            src={imgForm}
             alt="Contact Us"
             className=" border-2 border-gray-300 "
           />
