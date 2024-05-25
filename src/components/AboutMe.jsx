@@ -14,11 +14,14 @@ const AboutMe = () => {
        
        >
           <motion.img
+          initial={{x:-800}}
+        animate={{x:0}}
+        
            drag
       dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
       dragElastic={0.3}
       whileHover={{scale:1.1}}
-      transition={{duration:0.5}}
+      transition={{duration:0.5,delay:0.7, type:"spring", stiffness:200}}
             src={gifCode}
             alt="coder"
             className=""
