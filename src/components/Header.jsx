@@ -11,8 +11,7 @@ const Header = () => {
   return (
     <motion.div
       className="flex justify-center relative z-10"
-      drag
-      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+     
     >
       <motion.div
         className="bg-[#7091E6] p-4 mt-3 items-center font-poppins fixed top-0 rounded-lg "
