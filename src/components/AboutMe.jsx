@@ -17,9 +17,7 @@ const AboutMe = () => {
           initial={{x:-800}}
         animate={{x:0}}
         
-           drag
-      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-      dragElastic={0.3}
+           
       whileHover={{scale:1.1}}
       transition={{duration:0.5,delay:0.7, type:"spring", stiffness:200}}
             src={gifCode}
@@ -36,9 +34,7 @@ const AboutMe = () => {
        dragElastic={0.3}
        >
          <motion.div 
-           drag
-      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-      dragElastic={0.5}
+           
       whileHover={{scale:1.1}}
       transition={{duration:0.3}}
          >
