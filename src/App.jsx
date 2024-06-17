@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <div>
+      <div className="overflow-x-hidden">
       <Banner />
       <AboutMe />
       <Skills />
