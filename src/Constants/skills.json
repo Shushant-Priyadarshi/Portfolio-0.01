@@ -17,11 +17,11 @@
     },
     {
         "id": 5,
-        "skill": "TailWind CSS"
+        "skill": "ReactJs"
     },
     {
         "id": 6,
-        "skill": "ReactJs"
+        "skill": "TailWind CSS"
     },
     {
         "id": 7,
@@ -29,17 +29,17 @@
     },
     {
         "id": 8,
-        "skill": "ThreeJs"
+        "skill": "React Three Fiber"
     },
   
    
     {
         "id": 9,
-        "skill": "NodeJs"
+        "skill": "Java"
     },
     {
         "id": 10,
-        "skill": "ExpressJs"
+        "skill": "Spring Boot"
     },
     {
         "id": 11,
@@ -51,15 +51,9 @@
     },
     {
         "id": 13,
-        "skill": "Java"
-    },
-
-    {
-        "id": 16,
-        "skill": "Canva"
-    },
-    {
-        "id": 17,
-        "skill": "Figma"
+        "skill": "Redis"
     }
+
+   
+    
 ]

@@ -22,7 +22,7 @@ const Banner = () => {
         transition={{delay:0.7,type:"spring" ,stiffness:120}}>
           <ReactTyped
             className="pl-2"
-            strings={["A Frontend Developer"]}
+            strings={["A Fullstack Developer"]}
             typeSpeed={100}
             backSpeed={60}
             loop={true}

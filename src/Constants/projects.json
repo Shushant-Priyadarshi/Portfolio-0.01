@@ -1,25 +1,25 @@
 [
     {
         "id":1,
-        "name": "ShelfAri",
-        "description":" Shelfari is a full-stack app for managing bookstore.",
-        "tech":"MERN",
+        "name": "NPM",
+        "description":"Explore various npm packages I have made (300+downloads)",
+        "tech":"Javascript",
         "alternate":true,
-        "github":"https://github.com/Shushant-Priyadarshi/Bookstore-MERN"
+        "github":"https://www.npmjs.com/settings/shushi_codes/packages"
     },
     {
         "id":2,
-        "name": "Blinkit Clone",
-        "description":"  A taskbar that provides content suggestions for users to write",
-        "tech":"Html Css Javascript",
+        "name": "EchoReport",
+        "description":"A 3d News Website",
+        "tech":"React three fiber , Threejs, Framer motion,  Tailwind Css",
         "alternate":false,              
-        "github":"https://github.com/Shushant-Priyadarshi/Blinkit-Clone"
+        "github":"https://github.com/Shushant-Priyadarshi/EchoReport"
     },
     {
         "id":3,
         "name": "Code Editor",
         "description":" This project is a simple yet powerful code editor.",
-        "tech":"Html Css Javascript",
+        "tech":"Html, Css, Javascript",
         "alternate":true,
         "github":"https://github.com/Shushant-Priyadarshi/Code-Editor"
     },
@@ -27,7 +27,7 @@
         "id":4,
         "name": "Chat App",
         "description":"Real time chat application made with",
-        "tech":"ReactJS, Chakra UI, and Firebase.",
+        "tech":"ReactJS, Chakra UI, Firebase.",
         "alternate":false,
         "github":"https://github.com/Shushant-Priyadarshi/ChatApp-Firebase"
     }
