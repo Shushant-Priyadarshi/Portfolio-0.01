@@ -18,7 +18,7 @@
     {
         "id":3,
         "name": "Todo App",
-        "description":"A Fullstack Todo App with CRUD",
+        "description":"A Fullstack Todo App with CRUD operations",
         "tech":"Reactjs, SpringBoot, MySql",
         "alternate":true,
         "github":"https://github.com/Shushant-Priyadarshi/SpringBoot--Todo-App"
