@@ -17,11 +17,11 @@
     },
     {
         "id":3,
-        "name": "Code Editor",
-        "description":" This project is a simple yet powerful code editor.",
-        "tech":"Html, Css, Javascript",
+        "name": "Todo App",
+        "description":"A Fullstack Todo App with CRUD",
+        "tech":"Reactjs, SpringBoot, MySql",
         "alternate":true,
-        "github":"https://github.com/Shushant-Priyadarshi/Code-Editor"
+        "github":"https://github.com/Shushant-Priyadarshi/SpringBoot--Todo-App"
     },
     {
         "id":4,
