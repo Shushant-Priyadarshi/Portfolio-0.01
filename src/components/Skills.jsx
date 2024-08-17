@@ -20,7 +20,7 @@ const hoverEffect = {
 function Skills() {
 
   useEffect(()=>{
-    AOS.init({duration:1000});
+    AOS.init({duration:800});
   })
   return (
     <div className="bg-gradient-to-b from-[#D9DFFE] to-[#EDE8F5] w-full font-poppins">
