@@ -35,6 +35,8 @@
         "id": 14,
         "skill": "Kafka"
     },
+   {"id": 15,
+        "skill": "Graphql"},
     {
         "id": 11,
         "skill": "MongoDB"
