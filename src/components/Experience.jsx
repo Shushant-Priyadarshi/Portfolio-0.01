@@ -27,7 +27,7 @@ function Experience() {
                 Developed frontend solutions using React.js, Tailwind CSS, and
                 JavaScript for the National Service Scheme, enhancing user
                 interfaces and optimizing user experience.<br></br>
-                <i className="text-sm">April 2024 - present</i>
+                <i className="text-sm">April 2024 - July 2024</i>
               </h1>
             </div>
           </div>

@@ -17,11 +17,11 @@
     },
     {
         "id":3,
-        "name": "Todo App",
-        "description":"A Fullstack Todo App with CRUD operations",
-        "tech":"Reactjs, SpringBoot, MySql",
+        "name": "IdentityFlow",
+        "description":"A Fullstack user management platform ",
+        "tech":"Reactjs, SpringBoot, PostgreSQL",
         "alternate":true,
-        "github":"https://github.com/Shushant-Priyadarshi/SpringBoot--Todo-App"
+        "github":"https://github.com/Shushant-Priyadarshi/IdentityFlow"
     },
     {
         "id":4,
@@ -31,5 +31,6 @@
         "alternate":false,
         "github":"https://github.com/Shushant-Priyadarshi/ChatApp-Firebase"
     }
+
     
 ]

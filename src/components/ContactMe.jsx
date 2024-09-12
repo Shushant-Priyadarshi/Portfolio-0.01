@@ -1,10 +1,9 @@
 
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
 import { FaNpm } from "react-icons/fa";
 import {motion} from "framer-motion"
-
+import { TbFileCv } from "react-icons/tb";
 
 
 function ContactMe() {
@@ -40,11 +39,11 @@ function ContactMe() {
             <FaNpm />
           </a>
           <a
-            href="https://www.youtube.com/@JavaLover23/shorts"
+            href="https://drive.google.com/file/d/1l2muLu7ZlmMIpcG9ZWKiMUs-XADNkRRM/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaYoutube />
+           <TbFileCv />
           </a>  
         </div>
       </div>

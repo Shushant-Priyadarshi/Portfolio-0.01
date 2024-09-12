@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <div className="overflow-x-hidden">
+      <Toaster />
       <Banner />
       <AboutMe />
       <Skills />
@@ -20,7 +21,8 @@ function App() {
       <Form/>
       <ContactMe />
       </div>
-      <Toaster />
+
+
     </>
   );
 }
