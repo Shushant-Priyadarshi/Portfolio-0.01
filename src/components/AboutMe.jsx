@@ -38,9 +38,9 @@ const AboutMe = () => {
       whileHover={{scale:1.1}}
       transition={{duration:0.3}}
          >
-         I am a 17-year-old{" "}
-          <span className="text-[#3D52A0] font-bold">Fullstack developer</span>{" "}
-          based in India, currently pursuing my first year of Bachelor of
+         I am a 18-year-old{" "}
+          <span className="text-[#3D52A0] font-bold">Java Fullstack developer</span>{" "}
+          based in India, currently pursuing my second year of Bachelor of
           Computer Applications at{" "}
           <span className="text-[#3D52A0] font-bold">
             Maharaja Surajmal Institute
