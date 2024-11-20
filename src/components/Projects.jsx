@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { FaGithub } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import projectData from "../Constants/projects.json";
