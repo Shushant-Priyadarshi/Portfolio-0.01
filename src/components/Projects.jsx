@@ -40,11 +40,11 @@ const Projects = () => {
                 <div className="text-center flex flex-col gap-5 m-2  justify-between  ">
                   <h1 className="font-semibold p-3 ">{data.name} </h1>
                   <p>{data.description}</p>
-                  <h1 className="mb-1">{data.tech}</h1>
+                  <h1 className="mb-1 text-sm">{data.tech}</h1>
                 </div>
-                <div className="text-center">
+                {/* <div className="text-center">
                   <FaGithub className="text-2xl text-end inline" />
-                </div>
+                </div> */}
               </div>
             </motion.a>
           ))}

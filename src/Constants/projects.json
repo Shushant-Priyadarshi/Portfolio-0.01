@@ -9,28 +9,30 @@
     },
     {
         "id":2,
-        "name": "EchoReport",
-        "description":"A 3d News Website",
-        "tech":"React three fiber , Threejs, Framer motion,  Tailwind Css",
-        "alternate":false,              
-        "github":"https://github.com/Shushant-Priyadarshi/EchoReport"
+        "name": "ShuOnIt",
+        "description":"A Personal Blog Website with real time notification system and caching",
+        "tech":"Springboot, Websockets, Redis, Reactjs, PostgreSQL, Tailwind CSS",
+        "alternate":false,
+        "github":"https://github.com/Shushant-Priyadarshi/ShuOnit"
     },
     {
         "id":3,
-        "name": "IdentityFlow",
-        "description":"A Fullstack user management platform ",
-        "tech":"Reactjs, SpringBoot, PostgreSQL",
-        "alternate":true,
-        "github":"https://github.com/Shushant-Priyadarshi/IdentityFlow"
+        "name": "EchoReport",
+        "description":"A 3d News Website showing latest news with search functionality",
+        "tech":"React three fiber , Threejs, Framer motion,  Tailwind Css",
+        "alternate":true,              
+        "github":"https://github.com/Shushant-Priyadarshi/EchoReport"
     },
     {
         "id":4,
-        "name": "Chat App",
-        "description":"Real time chat application made with",
-        "tech":"ReactJS, Chakra UI, Firebase.",
+        "name": "IdentityFlow",
+        "description":"A Fullstack user management platform ",
+        "tech":"Reactjs, SpringBoot, PostgreSQL",
         "alternate":false,
-        "github":"https://github.com/Shushant-Priyadarshi/ChatApp-Firebase"
+        "github":"https://github.com/Shushant-Priyadarshi/IdentityFlow"
     }
+   
+
 
     
 ]

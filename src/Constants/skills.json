@@ -1,55 +1,51 @@
 [
-   
     {
         "id": 3,
         "skill": "JavaScript"
     },
-
     {
         "id": 5,
-        "skill": "ReactJs"
-    },
-    {
-        "id": 6,
-        "skill": "TailWind CSS"
-    },
-    {
-        "id": 7,
-        "skill": "Framer Motion"
-    },
-    {
-        "id": 8,
-        "skill": "React Three Fiber"
-    },
-  
-   
-    {
-        "id": 9,
         "skill": "Java"
     },
     {
-        "id": 10,
-        "skill": "Spring Boot"
+        "id": 6,
+        "skill": "SpringBoot"
     },
     {
-        "id": 14,
-        "skill": "Kafka"
+        "id": 7,
+        "skill": "React.js"
     },
-   {"id": 15,
-        "skill": "GraphQL"},
     {
-        "id": 11,
-        "skill": "MongoDB"
+        "id": 1111,
+        "skill": "Redux"
+    },
+    {
+        "id": 8,
+        "skill": "Tailwind CSS"
+    },
+    {
+        "id": 9,
+        "skill": "Framer Motion"
+    },
+   
+    {
+        "id": 11111,
+        "skill": "MySQL"
     },
     {
         "id": 12,
-        "skill": "MySql"
+        "skill": "MongoDB"
     },
     {
-        "id": 13,
-        "skill": "PostgreSQL"
+        "id": 10,
+        "skill": "Redis"
+    },
+    {
+        "id": 14,
+        "skill": "Docker"
+    },
+    {
+        "id": 15,
+        "skill": "AWS"
     }
-
-   
-    
 ]
