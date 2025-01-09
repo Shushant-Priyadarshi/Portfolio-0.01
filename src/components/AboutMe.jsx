@@ -38,16 +38,16 @@ const AboutMe = () => {
       whileHover={{scale:1.1}}
       transition={{duration:0.3}}
          >
-         I am a 18-year-old{" "}
-          <span className="text-[#3D52A0] font-bold">Fullstack developer</span>{" "}
-          based in India, currently pursuing my second year of Bachelor of
-          Computer Applications at{" "}
-          <span className="text-[#3D52A0] font-bold">
-            Maharaja Surajmal Institute
-          </span>
-          . With a strong passion for technology and problem-solving, I enjoy
-          creating innovative solutions and exploring the endless possibilities
-          of software development.
+         I am an 18-year-old{" "}
+  <span className="text-[#3D52A0] font-bold">Fullstack Developer</span>{" "}
+  based in India, currently interning at{" "}
+  <span className="text-[#3D52A0] font-bold">DRDO</span> and pursuing my second year of Bachelor of
+  Computer Applications at{" "}
+  <span className="text-[#3D52A0] font-bold">Maharaja Surajmal Institute</span>.
+  With a strong passion for technology and problem-solving, I enjoy
+  creating innovative solutions and exploring the endless possibilities
+  of software development.
+
          </motion.div> 
         </motion.div>
       </div>
