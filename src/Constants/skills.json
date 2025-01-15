@@ -43,9 +43,5 @@
     {
         "id": 14,
         "skill": "Docker"
-    },
-    {
-        "id": 15,
-        "skill": "AWS"
     }
 ]
