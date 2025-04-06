@@ -26,9 +26,8 @@ function Experience() {
             </h1>
             <div className="text-sm md:text-lg p-4 text-start  ">
               <h1 className="text-center">
-                My role involves working on both front-end and back-end
-                technologies, collaborating with a team to build
-                innovative and efficient solutions.
+                <p>▸ Currently working with their data and doing ML.</p>
+                <p >▸ Developed GUIs for the internal softwares using JavaFx.</p>
               </h1>
                 <br></br>
               <i className="text-sm">January 2025 - Present</i>
