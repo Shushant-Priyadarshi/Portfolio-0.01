@@ -32,10 +32,6 @@ function Skills() {
           <div className="mt-3 text-center"  data-aos="fade-right">
             {skillData.map((skill) => (
               <motion.button
-                drag
-                dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-                dragElastic={0.3}
-                transition={{ duration: 1 }}
                 key={skill.id}
                 className="border-2 m-1 rounded-lg p-2 bg-[#7091E6] text-white text-base"
                 variants={hoverEffect}

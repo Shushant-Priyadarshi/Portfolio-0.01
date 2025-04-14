@@ -43,5 +43,15 @@
     {
         "id": 14,
         "skill": "Docker"
+    },
+    {
+        "id": 15,
+        "skill": "AWS"
+    },{
+        "id": 16,
+        "skill": "Mastering Microservices"
+    },{
+        "id": 17,
+        "skill": "Machine Learning"
     }
 ]

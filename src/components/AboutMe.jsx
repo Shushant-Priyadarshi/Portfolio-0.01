@@ -29,9 +29,7 @@ const AboutMe = () => {
         initial={{x:800}}
         animate={{x:0}}
         transition={{delay:0.7, type:"spring", stiffness:200}}
-        drag
-      dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-       dragElastic={0.3}
+       
        >
          <motion.div 
            
