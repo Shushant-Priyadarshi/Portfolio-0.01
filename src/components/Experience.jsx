@@ -26,7 +26,7 @@ function Experience() {
             </h1>
             <div className="text-sm md:text-lg p-4 text-start  ">
               <h1 className="text-center">
-                <p>▸ Currently working with their data and doing ML.</p>
+                <p>▸ Currently working with their data.</p>
                 <p >▸ Developed GUIs for the internal softwares using JavaFx.</p>
               </h1>
                 <br></br>
